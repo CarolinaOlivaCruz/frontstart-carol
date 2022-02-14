@@ -1,0 +1,32 @@
+/*Segue uma importação de google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body {
+    font-family: 'Redressed', cursive;
+}
+/* tag html */
+p, li, h1 {
+    color: rgb(230, 38, 150);
+}
+/* id */
+#texto {
+    color: darkblue;
+    font-size: 2rem;
+}
+/* class */
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+/* atributo */
+/*Para um atributo dentro da div deve ser usado []*/
+[lang=pt-br] {
+    color: darkorchid;
+    font-size: 12px;
+}
+/* teste */
+[container] {
+    background: pink;
+    padding: 20px;
+    margin: 10px 20px;
+}
