@@ -24,8 +24,8 @@ p, li, h1 {
     color: darkorchid;
     font-size: 12px;
 }
-/* teste */
-[container] {
+/* class */
+.container {
     background: pink;
     padding: 20px;
     margin: 10px 20px;
