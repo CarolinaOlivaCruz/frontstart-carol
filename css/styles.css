@@ -28,6 +28,24 @@ p, li, h1 {
 .container {
     background: pink;
     padding: 20px;
-    margin: 10px 20px;
-    
+    margin: auto;
 }
+
+.container p {
+    border: 5px  double rgb(14, 28, 153) ;
+    /*border-radius serve para arredondar. Inserindo medidas é possível arredondar quantas pontas quiser*/
+    border-radius: 16px 0 ;
+    margin: auto;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+ 
+}
+
+.circle {
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+/*Width (altura), Height (largura) Para controla a miníma e máxima usar min-max*/
