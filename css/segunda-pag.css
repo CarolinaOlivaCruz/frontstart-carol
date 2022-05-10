@@ -1,8 +1,18 @@
-.container{
-    background-color: rgb(190, 135, 241);
-    height: 100%;
-    width: 200vh;
-   max-width: 600px;
-   min-width: 200px;
-   max
+p {
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+}
+
+span {
+    border: 1px solid rgb(0, 255, 76); 
+}
+
+div {
+    border: 1px solid rgb(204, 7, 178);
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
 }
