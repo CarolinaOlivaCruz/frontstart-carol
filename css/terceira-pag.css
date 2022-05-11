@@ -1,0 +1,26 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    }
+
+.input-container{
+    margin: 100px;
+    position: relative;
+}
+
+   
+input{
+    height: 45px; 
+    width: 300px; 
+    padding-left: 35px;
+}
+    
+    
+svg{
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 10px;
+}
+    
+    
