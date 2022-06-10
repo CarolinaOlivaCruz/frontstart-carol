@@ -39,6 +39,15 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.iphone-container .cabecalho {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    color: white;
+}
+
+.iphone-container .cabecalho span {
+    color: white;
+}
   
 .iphone-container .menu {
     width: 60px;
@@ -48,4 +57,40 @@ body {
     position: absolute;
     bottom: 20px;
     left: calc(50% - 30px);
+}
+
+.iphone-container svg{
+    color: white;
+    width: 50px;
+    height: 15px;
+    text-align: center;
+}
+.iphone-container h1, h4, p, h3{
+    color: white;
+    margin: 5px;
+}
+
+p {
+    font-size: 13px;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+h4{
+font-size: 12px;
+
+}
+
+h3{
+    font-size: 17px
+}
+
+.iphone-container .week {
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 0;
+    
 }
