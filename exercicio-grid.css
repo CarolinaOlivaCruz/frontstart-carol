@@ -20,6 +20,28 @@ body {
     display: flex;
 }
 
+h2, h4 {
+    margin: 5px;
+}
+p {
+    font-size: 13px;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+h4{
+font-size: 12px;
+
+}
+
+h3{
+    font-size: 17px
+    
+
+}
+
 /*Nesse elemento foi preciso simplificar o uso de border, acrescentar o color*/
 .iphone-container {
     width: 250px;
@@ -62,27 +84,7 @@ body {
 }
 
 
-h2, h4 {
-    margin: 5px;
-}
-p {
-    font-size: 13px;
-}
 
-h1 {
-    font-size: 65px;
-}
-
-h4{
-font-size: 12px;
-
-}
-
-h3{
-    font-size: 17px
-    
-
-}
 
 .iphone-container .week {
    
